@@ -18,6 +18,6 @@ getAllInventorys = catchError(async (req, res, next) => {
     },
   });
 });
-exports.module = {
+module.exports = {
     getAllInventorys
 }
